@@ -138,3 +138,18 @@ h1, h2 {
     /* grid-template-columns: 2fr repeat(2, 1fr); */
     grid: repeat(2, 1fr) / repeat(3, 1fr);
 }
+
+/* 8 */
+
+.grid-8 {
+    display: grid;
+    grid: repeat(2, 20rem) / repeat(3, 1fr);
+    /* column-gap: 1rem;
+    row-gap: 4rem; */
+    gap: 4rem 1rem;
+}
+
+
+.grid-8 .box {
+    margin: 0;
+}
