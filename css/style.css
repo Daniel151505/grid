@@ -242,3 +242,13 @@ h1, h2 {
     /* align-items: stretch;
     place-content:initial; */
 }
+
+/* 12 */
+
+.grid-12 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-columns: repeat(auto-fit, 200px);
+
+    grid-template-columns: repeat(autofit, minmax( 200px, 1fr));
+}
